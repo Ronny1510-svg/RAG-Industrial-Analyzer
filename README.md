@@ -35,3 +35,12 @@ El sistema requiere las librerías listadas en `requirements.txt`. El procesamie
 
 ### Notas de Ingeniería
 Este asistente fue diseñado bajo el principio de **desacoplamiento de datos**, separando la lógica del backend de la interfaz de usuario, permitiendo que el sistema sea escalable para diferentes tipos de documentación técnica industrial.
+## Demo
+
+A continuación, se muestra el funcionamiento del asistente analizando un manual técnico en tiempo real:
+
+https://github.com/user-attachments/assets/1cbad101-19cf-4096-a31b-abc1478e5ff5
+
+
+
+
