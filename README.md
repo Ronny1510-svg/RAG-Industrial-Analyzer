@@ -5,7 +5,7 @@ Asistente de Inteligencia Artificial basado en RAG (Retrieval-Augmented Generati
 
 Este proyecto implementa una arquitectura **RAG (Retrieval-Augmented Generation)** que permite interactuar con documentos PDF técnicos (como manuales de maquinaria o guías de seguridad). Utiliza **HuggingFace** para el procesamiento local de datos y **Groq (Llama 3.3)** para la generación de respuestas de alta velocidad (el modelo de IA puede ser cambiado).
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 * **Lenguaje:** Python 3.12
 * **Orquestador de IA:** LangChain (LCEL)
@@ -14,20 +14,20 @@ Este proyecto implementa una arquitectura **RAG (Retrieval-Augmented Generation)
 * **Base de Datos Vectorial:** ChromaDB
 * **Interfaz de Usuario:** Streamlit
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 * **Carga Dinámica:** Sube cualquier manual en formato PDF desde la interfaz.
 * **Procesamiento Inteligente:** Segmentación de documentos para una recuperación mas precisa de información.
 * **Consultas Técnicas:** Responde preguntas sobre seguridad, procedimientos de mantenimiento, códigos de error y especificaciones técnicas.
 * **Seguridad de API:** Integración de API Key mediante entrada de usuario protegida.
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 * `App.py`: Gestión de la interfaz web con Streamlit.
 * `Analista.py`: Motor de lógica RAG, encargado de la vectorización y conexión con el LLM.
 * `requirements.txt`: Listado de dependencias necesarias para el entorno.
 
-## 📋 Requisitos
+## Requisitos
 
 El sistema requiere las librerías listadas en `requirements.txt`. El procesamiento de embeddings se realiza de forma local, mientras que la inferencia de lenguaje se ejecuta a través de Groq para garantizar una respuesta inmediata.
 
